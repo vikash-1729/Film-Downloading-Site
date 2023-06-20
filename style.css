@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Rubik:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'poppins', sans-serif;
+    background-color: #000507;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #0f90b0;
+    justify-content: space-between;
+}
+
+#Logo {
+    float: left;
+    height: 61px;
+    width: 70px;
+
+}
+
+#Baar {
+    margin: 19px 30px;
+    border: 2px double #2b1f25;
+    color: #341317;
+    background-color: #8d8b92;
+    float: right;
+}
+
+.footer {
+    color: #07070a;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+li {
+    margin: 5px 5px 5px 5px;
+    list-style-type: none;
+    padding: 5px;
+    /* flex-wrap: wrap; */
+    border: dotted rgba(2, 12, 14, 0.669);
+    background-color: rgb(155, 213, 213);
+}
+
+.Home {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #1e1e28;
+}
+
+.nav2 {
+    margin: 0 150px 0px 150px;
+    text-align: center;
+    background-color: #436b6d;
+    padding: 10px 0 10px 0;
+    border: #15a3bc solid;
+    margin-top: 15px;
+
+}
+
+.yellow-color {
+    color: yellow;
+}
+
+.Download {
+    color: rgb(7, 8, 6);
+}
+
+.Main-div {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: auto;
+    flex-direction: initial;
+
+}
+.Main-div p {
+    color: aliceblue;
+    font-family:"Gill Saans" , sans-serif;
+    font-size: small;
+    
+}
+
+.Main-div a {
+    margin-bottom: 10px;
+
+}
+
+main {
+    margin-top: 15px;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer {
+    padding: 20px 200px 20px 200px;
+    height: 150px;
+    background-color: rgb(110, 195, 174);
+    border: 5px solid hsl(187, 59%, 34%);
+}
+
+.footer:hover {
+    transition: all 2s ease-out;
+
+}
